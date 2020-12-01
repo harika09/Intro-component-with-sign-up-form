@@ -152,6 +152,7 @@ input[type=submit]:hover{
         display: grid;
         grid-template-columns: 1fr;
         margin-bottom: 40px;
+        max-width: 100%;
     }
 
 
@@ -174,7 +175,7 @@ input[type=submit]:hover{
 @media screen and (max-width: 600px){
 
     .main-container{
-        margin-bottom: 80px;
+        padding: 0 40px;
     }
     .title h1{
        font-size: 2rem; 
@@ -191,7 +192,9 @@ input[type=submit]:hover{
         font-size: 1.2rem;
     }
 
-    .attribution{
-         font-size: .8rem;
+    footer{
+        margin-top: 100px;
+        position: absolute;
+        left: 50px;
     }
 }
