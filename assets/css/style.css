@@ -200,9 +200,10 @@ input[type=submit]:hover{
     }
 
     footer{
+        font-family: var(--Open-sans);
         margin-top: 100px;
-        position: absolute;
-        left: 50px;
+        font-size: .8rem;
+      
     }
 }
 
