@@ -33,6 +33,13 @@ body{
     background-color: var(--Red);
 }
 
+/* Layout */
+.bd-container{
+    max-width: 1400px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+} 
+
 
 /* ==== Main Container ==== */
 .main-container{
@@ -42,7 +49,7 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: var(--Open-sans);
-    padding: 0 80px;
+
 }
 .title{
     color: #fff;
@@ -196,5 +203,12 @@ input[type=submit]:hover{
         margin-top: 100px;
         position: absolute;
         left: 50px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .bd-container{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
